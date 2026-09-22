@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model/data artifacts
+artifacts/
+checkpoints/
+data/raw/
+data/private/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+*.pkl
+*.joblib
+
+# MLflow local state
+mlruns/
+mlartifacts/
+
+# Build/logs
+build/
+dist/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
